@@ -18,3 +18,19 @@ const mostrarLista = () => {
         console.log(producto);
     }
 }
+
+
+agregarProducto("Manzanas");
+agregarProducto("Pan");
+agregarProducto("Leche");
+mostrarLista();
+
+
+console.log("Eliminado pan");
+eliminarProducto("Pan");
+mostrarLista();
+
+console.log("Agregando sandia y naranja");
+agregarProducto("Sandia");
+agregarProducto("Naranja");
+mostrarLista();
